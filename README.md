@@ -28,7 +28,7 @@ Endereço IPv4. . . . . . . .  . . . . . . . :
 ```
 Pronto, agora com a informação do IP da sua máquina, vamos ao repositório
 
-* No arquivo [script.js](https://github.com/Davi-Perdigao/Redes-Application_Socket-TCP/blob/main/public/js/script.js), edite a primeira linha do código com a informação do seu IP:
+* No arquivo [script.js](https://github.com/ericcastroc/Redes-Application_Socket-TCP/blob/main/public/js/script.js), edite a primeira linha do código com a informação do seu IP:
 ```js
 var socket = io('http://XXX.XXX.XX.XX:3000');
 ```
@@ -38,7 +38,7 @@ var socket = io('http://XXX.XXX.XX.XX:3000');
 
 ✔ Pronto, agora a aplicação já está em execução. Agora, qualquer pessoa através de um computador, notebook ou smartphone pode conectar ao Chat apenas digitando o seu IP + :3000 (`XXX.XXX.XX.XX:3000`) em qualquer navegador. Através do terminal, é possível visualizar em tempo real os Sockets conectados:
 
-![Aplicação e Terminal](https://github.com/Davi-Perdigao/Redes-Application_Socket-TCP/blob/main/public/images/app_terminal.png)
+![Aplicação e Terminal](https://github.com/ericcastroc/Redes-Application_Socket-TCP/blob/main/public/images/app_terminal.png)
 
 ## 📖 Referências
 
